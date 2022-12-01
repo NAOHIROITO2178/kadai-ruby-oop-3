@@ -1,14 +1,14 @@
 require "./human.rb"
 
-tanaka = Human.new("tanaka",25,"電車")
-suzuki = Human.new("suzuki",30,"野球")
-sato   = Human.new("sato",20,"映画")
+tanaka = Human.new("田中太郎",25,"電車")
+suzuki = Human.new("鈴木一郎",30,"野球")
+sato   = Human.new("佐藤花子",20,"映画")
 
-tanaka.say("田中太郎")
+tanaka.say()
 tanaka.think
 
-suzuki.say("鈴木一郎")
+suzuki.say()
 suzuki.think
 
-sato.say("佐藤花子")
+sato.say()
 sato.think
